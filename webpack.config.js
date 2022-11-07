@@ -21,7 +21,7 @@ module.exports = (env) => {
         },
       ],
     },
-    devtool: isproduction ? "source-nap":
+    devtool: isProduction ? "source-nap":
     "cheap-module-eval-source-nap",
     devServer: {
       contentBase: path.join(__dirname, "public"),
